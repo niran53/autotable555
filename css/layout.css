@@ -1,0 +1,104 @@
+/* layout.css — โครงหน้า: แถบบน, แถบขั้นตอน (ออกแบบให้เหมือนหัวตารางเรียนที่มีช่องคาบ), พื้นที่เนื้อหา */
+
+.topbar {
+  position: sticky; top: 0; z-index: 40;
+  background: var(--board-deep);
+  color: #eaf3ee;
+  border-bottom: 3px solid var(--chalk);
+}
+.topbar-inner {
+  max-width: 1360px; margin: 0 auto; padding: 0.6rem 1.25rem;
+  display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+}
+.brand { display: flex; align-items: center; gap: 0.7rem; color: #fff; text-decoration: none; }
+.brand:hover { color: #fff; }
+.brand-mark { width: 38px; height: 38px; flex: none; }
+.brand-name { font-family: var(--font-head); font-weight: 700; font-size: 1.2rem; line-height: 1.2; }
+.brand-sub { display: block; font-family: var(--font-body); font-weight: 400; font-size: 0.82rem; color: #b9d2c6; }
+.topbar-spacer { flex: 1; }
+.topbar-links { display: flex; gap: 0.25rem; }
+.topbar-links a {
+  color: #d9e9e1; text-decoration: none; padding: 0.4rem 0.8rem; border-radius: 999px; font-size: 0.95rem;
+  transition: background 0.15s;
+}
+.topbar-links a:hover, .topbar-links a[aria-current="page"] { background: rgba(255, 255, 255, 0.12); color: #fff; }
+
+.store-chip {
+  display: inline-flex; align-items: center; gap: 0.45rem; font-size: 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.25); border-radius: 999px; padding: 0.25rem 0.75rem; color: #e6f1eb;
+  background: rgba(255, 255, 255, 0.06); cursor: pointer; font-family: inherit;
+}
+.store-chip .dot { width: 9px; height: 9px; border-radius: 50%; background: #9fb4aa; }
+.store-chip[data-state="remote"] .dot { background: #5fd39a; }
+.store-chip[data-state="error"] .dot { background: #ff8a73; }
+
+/* ---------- แถบขั้นตอน: ช่องเรียงเหมือนคาบเรียน ---------- */
+.stepper-wrap { background: var(--surface); border-bottom: 1px solid var(--line); }
+.stepper {
+  max-width: 1360px; margin: 0 auto; padding: 0 1.25rem;
+  display: grid; grid-template-columns: repeat(4, 1fr); counter-reset: step;
+  list-style: none;
+}
+.stepper li { border-left: 1px solid var(--line); }
+.stepper li:last-child { border-right: 1px solid var(--line); }
+.stepper a {
+  display: flex; align-items: center; gap: 0.75rem; padding: 0.7rem 1rem; text-decoration: none; color: var(--ink-2);
+  position: relative; height: 100%; transition: background 0.15s;
+}
+.stepper a:hover { background: var(--surface-2); color: var(--ink); }
+.stepper .step-no {
+  width: 2rem; height: 2rem; flex: none; border-radius: 50%; display: grid; place-items: center;
+  border: 2px solid var(--line-strong); font-family: var(--font-head); font-weight: 700; color: var(--muted); background: var(--surface);
+}
+.stepper .step-text { display: flex; flex-direction: column; line-height: 1.3; }
+.stepper .step-name { font-family: var(--font-head); font-weight: 600; font-size: 1rem; }
+.stepper .step-state { font-size: 0.8rem; color: var(--muted); }
+.stepper a[aria-current="step"] { background: var(--board-soft); color: var(--board-deep); }
+.stepper a[aria-current="step"]::after {
+  content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 3px; background: var(--board);
+}
+.stepper a[aria-current="step"] .step-no { border-color: var(--board); background: var(--board); color: #fff; }
+.stepper a.is-done .step-no { border-color: var(--ok); color: var(--ok); }
+.stepper a.is-locked { color: #8a9892; cursor: not-allowed; }
+.stepper a.is-locked:hover { background: transparent; }
+
+main {
+  max-width: 1360px; margin: 0 auto; padding: 1.5rem 1.25rem 4rem;
+}
+.view { animation: view-in 0.28s var(--ease); }
+@keyframes view-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+.page-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
+.page-head h1 { margin: 0; }
+.page-head p { margin: 0.25rem 0 0; color: var(--muted); }
+.page-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; }
+
+.cols-2 { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(300px, 1fr); gap: 1.25rem; align-items: start; }
+.cols-run { display: grid; grid-template-columns: minmax(320px, 1fr) minmax(0, 1.4fr); gap: 1.25rem; align-items: start; }
+.stack { display: flex; flex-direction: column; gap: 1.25rem; }
+.row { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+.row.between { justify-content: space-between; }
+
+.footer-bar {
+  position: sticky; bottom: 0; z-index: 20; margin-top: 1.25rem;
+  background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(6px);
+  border: 1px solid var(--line); border-radius: var(--r-lg); padding: 0.8rem 1rem;
+  display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap;
+  box-shadow: var(--shadow-2);
+}
+
+.site-foot { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 0 1rem 2rem; }
+
+@media (max-width: 1080px) {
+  .cols-2, .cols-run { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  html { font-size: 100%; }
+  .stepper { grid-template-columns: repeat(4, minmax(0, 1fr)); padding: 0; }
+  .stepper a { flex-direction: column; gap: 0.25rem; padding: 0.55rem 0.3rem; text-align: center; }
+  .stepper .step-name { font-size: 0.85rem; }
+  .stepper .step-state { display: none; }
+  .topbar-links a { padding: 0.35rem 0.55rem; font-size: 0.9rem; }
+  .brand-sub { display: none; }
+  main { padding: 1rem 0.75rem 4rem; }
+}

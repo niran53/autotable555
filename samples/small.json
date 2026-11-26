@@ -1,0 +1,554 @@
+{
+  "teachers": [
+    {
+      "teacher_id": "T001",
+      "name": "นายอนุชา จันทร์หอม",
+      "position": "พนักงานราชการ (ครู)",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T002",
+      "name": "นายศุภลักษณ์ บุญมา",
+      "position": "ครูผู้ช่วย",
+      "department": "คอมพิวเตอร์ธุรกิจ",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T003",
+      "name": "นางปิยะพงษ์ จันทร์หอม",
+      "position": "ครูชำนาญการ",
+      "department": "คอมพิวเตอร์ธุรกิจ",
+      "max_periods": 24,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T004",
+      "name": "นายยุทธนา บุญเรือง",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T005",
+      "name": "นางสาวอภิชาติ พันธ์ุดี",
+      "position": "ครู",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T006",
+      "name": "นายกาญจนา ใจดี",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 24,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T007",
+      "name": "นายนิตยา บุญมา",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_periods": 24,
+      "unavailable": ""
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "R101",
+      "name": "ห้องเรียน 1",
+      "type": "ทั่วไป",
+      "capacity": 45,
+      "building": "อาคาร 1"
+    },
+    {
+      "room_id": "GYM01",
+      "name": "โรงยิม 1",
+      "type": "สนามกีฬา",
+      "capacity": 80,
+      "building": "อาคารพลศึกษา"
+    },
+    {
+      "room_id": "COM01",
+      "name": "ห้องคอมพิวเตอร์ 1",
+      "type": "คอมพิวเตอร์",
+      "capacity": 40,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM02",
+      "name": "ห้องคอมพิวเตอร์ 2",
+      "type": "คอมพิวเตอร์",
+      "capacity": 40,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM03",
+      "name": "ห้องคอมพิวเตอร์ 3",
+      "type": "คอมพิวเตอร์",
+      "capacity": 45,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM04",
+      "name": "ห้องคอมพิวเตอร์ 4",
+      "type": "คอมพิวเตอร์",
+      "capacity": 45,
+      "building": "อาคาร 3"
+    }
+  ],
+  "subjects": [
+    {
+      "subject_id": "20000-1101",
+      "name": "ภาษาไทยพื้นฐาน",
+      "theory": 1,
+      "practice": 0,
+      "credit": 1,
+      "room_type": "ทั่วไป"
+    },
+    {
+      "subject_id": "20000-1201",
+      "name": "ภาษาอังกฤษในชีวิตจริง",
+      "theory": 0,
+      "practice": 2,
+      "credit": 1,
+      "room_type": "ทั่วไป"
+    },
+    {
+      "subject_id": "20000-1401",
+      "name": "คณิตศาสตร์พื้นฐานอาชีพ",
+      "theory": 2,
+      "practice": 0,
+      "credit": 2,
+      "room_type": "ทั่วไป"
+    },
+    {
+      "subject_id": "20000-1301",
+      "name": "วิทยาศาสตร์เพื่อพัฒนาทักษะชีวิต",
+      "theory": 1,
+      "practice": 2,
+      "credit": 2,
+      "room_type": "ทั่วไป"
+    },
+    {
+      "subject_id": "20000-1501",
+      "name": "หน้าที่พลเมืองและศีลธรรม",
+      "theory": 1,
+      "practice": 0,
+      "credit": 1,
+      "room_type": "ทั่วไป"
+    },
+    {
+      "subject_id": "20000-1601",
+      "name": "พลศึกษาเพื่อพัฒนาสุขภาพ",
+      "theory": 0,
+      "practice": 2,
+      "credit": 1,
+      "room_type": "สนามกีฬา"
+    },
+    {
+      "subject_id": "20204-2001",
+      "name": "คอมพิวเตอร์และสารสนเทศเพื่องานอาชีพ",
+      "theory": 1,
+      "practice": 2,
+      "credit": 2,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "20204-2003",
+      "name": "ระบบปฏิบัติการเบื้องต้น",
+      "theory": 1,
+      "practice": 2,
+      "credit": 2,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "20204-2004",
+      "name": "เครือข่ายคอมพิวเตอร์เบื้องต้น",
+      "theory": 1,
+      "practice": 2,
+      "credit": 2,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "20204-2107",
+      "name": "การเขียนโปรแกรมคอมพิวเตอร์",
+      "theory": 1,
+      "practice": 4,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "20204-2105",
+      "name": "การออกแบบเว็บไซต์",
+      "theory": 1,
+      "practice": 4,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "31901-2001",
+      "name": "การเขียนโปรแกรมเชิงวัตถุ",
+      "theory": 1,
+      "practice": 4,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "31901-2013",
+      "name": "การพัฒนาไฮบริดแอพพลิเคชั่น",
+      "theory": 1,
+      "practice": 4,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "31901-2003",
+      "name": "ระบบฐานข้อมูล",
+      "theory": 2,
+      "practice": 2,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "31901-2005",
+      "name": "การวิเคราะห์และออกแบบระบบ",
+      "theory": 2,
+      "practice": 2,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "31901-2007",
+      "name": "ความปลอดภัยระบบเครือข่าย",
+      "theory": 1,
+      "practice": 3,
+      "credit": 2,
+      "room_type": "คอมพิวเตอร์"
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "คธ-C1/1",
+      "name": "ปวช.1 คอมพิวเตอร์ธุรกิจ กลุ่ม 1",
+      "level": "ปวช.1",
+      "students": 29,
+      "department": "คอมพิวเตอร์ธุรกิจ"
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "name": "ปวช.2 คอมพิวเตอร์ธุรกิจ กลุ่ม 1",
+      "level": "ปวช.2",
+      "students": 35,
+      "department": "คอมพิวเตอร์ธุรกิจ"
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "name": "ปวช.1 เทคโนโลยีสารสนเทศ กลุ่ม 1",
+      "level": "ปวช.1",
+      "students": 29,
+      "department": "เทคโนโลยีสารสนเทศ"
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "name": "ปวช.2 เทคโนโลยีสารสนเทศ กลุ่ม 1",
+      "level": "ปวช.2",
+      "students": 36,
+      "department": "เทคโนโลยีสารสนเทศ"
+    }
+  ],
+  "assignments": [
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20000-1301",
+      "teacher_id": "T001",
+      "periods": 3,
+      "room_id": "R101",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20000-1101",
+      "teacher_id": "T001",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T001",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20000-1601",
+      "teacher_id": "T001",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20204-2001",
+      "teacher_id": "T002",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20204-2003",
+      "teacher_id": "T002",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20204-2004",
+      "teacher_id": "T002",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20204-2107",
+      "teacher_id": "T002",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20204-2105",
+      "teacher_id": "T002",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T001",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20000-1601",
+      "teacher_id": "T001",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20000-1401",
+      "teacher_id": "T001",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20000-1201",
+      "teacher_id": "T001",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20204-2001",
+      "teacher_id": "T003",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20204-2003",
+      "teacher_id": "T003",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20204-2004",
+      "teacher_id": "T003",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20204-2107",
+      "teacher_id": "T003",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20204-2105",
+      "teacher_id": "T003",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T001",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "20000-1201",
+      "teacher_id": "T001",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "20000-1601",
+      "teacher_id": "T001",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "20000-1101",
+      "teacher_id": "T001",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "31901-2001",
+      "teacher_id": "T004",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "31901-2013",
+      "teacher_id": "T004",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "31901-2003",
+      "teacher_id": "T004",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "31901-2005",
+      "teacher_id": "T004",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "31901-2007",
+      "teacher_id": "T005",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "20000-1101",
+      "teacher_id": "T006",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "20000-1401",
+      "teacher_id": "T006",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T006",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "20000-1301",
+      "teacher_id": "T006",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "31901-2001",
+      "teacher_id": "T005",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "31901-2013",
+      "teacher_id": "T005",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "31901-2003",
+      "teacher_id": "T005",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "31901-2005",
+      "teacher_id": "T007",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "31901-2007",
+      "teacher_id": "T007",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    }
+  ]
+}

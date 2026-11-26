@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>จัดตารางสอนอัตโนมัติ</title>
+  <meta name="description" content="ระบบจัดตารางสอนอัตโนมัติ นำเข้าข้อมูลครู ห้อง วิชา กลุ่มเรียน แล้วจัดตารางโดยไม่ให้ครู ห้อง หรือกลุ่มเรียนซ้อนเวลากัน">
+  <meta name="theme-color" content="#143b31">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&family=Noto+Sans+Thai+Looped:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/timetable.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">ข้ามไปที่เนื้อหา</a>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#import" aria-label="จัดตารางสอนอัตโนมัติ หน้าแรก">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect x="2" y="4" width="36" height="32" rx="7" fill="#1f5b4b" stroke="#6fa892" stroke-width="1.5"/>
+          <path d="M2 13h36M14 13v23M26 13v23M2 24.5h36" stroke="#6fa892" stroke-width="1.3"/>
+          <rect x="15.5" y="15" width="9" height="8" rx="2" fill="#f2c14e"/>
+          <circle cx="11" cy="8.5" r="1.6" fill="#f2c14e"/><circle cx="29" cy="8.5" r="1.6" fill="#f2c14e"/>
+        </svg>
+        <span class="brand-name">จัดตารางสอนอัตโนมัติ<span class="brand-sub" id="brandSub">วิทยาลัยตัวอย่าง</span></span>
+      </a>
+      <span class="topbar-spacer"></span>
+      <nav class="topbar-links" aria-label="เมนูเสริม">
+        <a href="#history" data-nav="history">ประวัติรอบรัน</a>
+        <a href="#settings" data-nav="settings">ตั้งค่า</a>
+      </nav>
+      <button type="button" class="store-chip" id="storeChip" data-state="local" title="ที่เก็บข้อมูล">
+        <span class="dot" aria-hidden="true"></span><span id="storeChipText">บันทึกในเครื่องนี้</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="stepper-wrap">
+    <nav aria-label="ขั้นตอนการทำงาน">
+      <ol class="stepper" id="stepper">
+        <li><a href="#import" data-step="import"><span class="step-no">1</span><span class="step-text"><span class="step-name">นำเข้าข้อมูล</span><span class="step-state" data-state-for="import">เลือกไฟล์</span></span></a></li>
+        <li><a href="#preview" data-step="preview"><span class="step-no">2</span><span class="step-text"><span class="step-name">ตรวจและยืนยัน</span><span class="step-state" data-state-for="preview">รอข้อมูล</span></span></a></li>
+        <li><a href="#run" data-step="run"><span class="step-no">3</span><span class="step-text"><span class="step-name">จัดตาราง</span><span class="step-state" data-state-for="run">รอยืนยันข้อมูล</span></span></a></li>
+        <li><a href="#results" data-step="results"><span class="step-no">4</span><span class="step-text"><span class="step-name">ตารางผลลัพธ์</span><span class="step-state" data-state-for="results">ยังไม่มีผล</span></span></a></li>
+      </ol>
+    </nav>
+  </div>
+
+  <main id="main" tabindex="-1">
+
+    <!-- ===================== 1) นำเข้าข้อมูล ===================== -->
+    <section class="view" id="view-import" data-view="import" hidden>
+      <div class="page-head">
+        <div>
+          <h1>นำเข้าข้อมูล</h1>
+          <p>ใช้ไฟล์ CSV, Excel (.xlsx), JSON หรือ PDF ได้หลายไฟล์พร้อมกัน ระบบจะแยกว่าไฟล์ไหนเป็นข้อมูลครู ห้อง วิชา กลุ่มเรียน หรือการมอบหมายสอน</p>
+        </div>
+      </div>
+      <div class="cols-2">
+        <div class="stack">
+          <div class="panel">
+            <label class="dropzone" id="dropzone" for="fileInput">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="6" y="9" width="36" height="30" rx="5"/><path d="M6 18h36M18 18v21M30 18v21"/><path d="M24 34V24m0 0-4 4m4-4 4 4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span class="dz-title">ลากไฟล์มาวางที่นี่ หรือคลิกเพื่อเลือกไฟล์</span>
+              <span class="muted small">เลือกได้หลายไฟล์ ขนาดไม่เกิน 25 MB ต่อไฟล์</span>
+              <span class="dz-types"><span class="badge">.csv</span><span class="badge">.xlsx</span><span class="badge">.xls</span><span class="badge">.json</span><span class="badge">.pdf</span></span>
+            </label>
+            <input type="file" id="fileInput" class="sr-only" multiple accept=".csv,.tsv,.txt,.xlsx,.xls,.ods,.json,.pdf,text/csv,application/json,application/pdf,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+            <div class="row between" style="margin-top:1rem">
+              <h2 style="margin:0">ไฟล์ที่นำเข้า <span class="badge" id="jobCount">0 ไฟล์</span></h2>
+              <button type="button" class="btn btn-sm btn-ghost" id="clearJobs" hidden>ล้างรายการทั้งหมด</button>
+            </div>
+            <ul class="jobs" id="jobs" aria-live="polite"></ul>
+            <div class="empty-state" id="jobsEmpty">
+              <p style="margin:0 auto">ยังไม่มีไฟล์ เลือกไฟล์ของคุณ หรือลองใช้ชุดข้อมูลทดสอบด้านขวา</p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="stack">
+          <div class="panel">
+            <div class="panel-head">
+              <div>
+                <h2>ชุดข้อมูลทดสอบ</h2>
+                <p>สร้างไฟล์ทดสอบแล้วส่งเข้าตัวนำเข้าเหมือนเลือกไฟล์จริง</p>
+              </div>
+            </div>
+            <div class="field" style="margin-bottom:0.9rem">
+              <span>รูปแบบไฟล์ที่จะสร้าง</span>
+              <div class="segmented" id="sampleFormat" role="group" aria-label="รูปแบบไฟล์ชุดทดสอบ">
+                <button type="button" data-fmt="xlsx" aria-pressed="true">Excel</button>
+                <button type="button" data-fmt="csv" aria-pressed="false">CSV</button>
+                <button type="button" data-fmt="json" aria-pressed="false">JSON</button>
+              </div>
+            </div>
+            <div class="stack" style="gap:0.55rem" id="sampleButtons"></div>
+          </div>
+
+          <div class="panel">
+            <h2>แม่แบบไฟล์</h2>
+            <p class="muted small">ดาวน์โหลดแม่แบบที่มีหัวคอลัมน์ครบและตัวอย่างหนึ่งแถว แล้วกรอกข้อมูลจริงของสถานศึกษา</p>
+            <div class="row">
+              <button type="button" class="btn btn-sm" data-template="xlsx">แม่แบบ Excel</button>
+              <button type="button" class="btn btn-sm" data-template="csv">แม่แบบ CSV</button>
+              <button type="button" class="btn btn-sm" data-template="json">แม่แบบ JSON</button>
+            </div>
+            <details class="help" style="margin-top:1rem">
+              <summary>หัวคอลัมน์ที่ระบบอ่านได้</summary>
+              <div class="help-body" id="columnHelp"></div>
+            </details>
+          </div>
+        </aside>
+      </div>
+
+      <div class="footer-bar">
+        <span id="importSummary" class="muted">เลือกไฟล์อย่างน้อย 1 ไฟล์เพื่อดำเนินการต่อ</span>
+        <button type="button" class="btn btn-primary btn-lg" id="toPreview" disabled>ตรวจข้อมูลและดูพรีวิว</button>
+      </div>
+    </section>
+
+    <!-- ===================== 2) ตรวจและยืนยัน ===================== -->
+    <section class="view" id="view-preview" data-view="preview" hidden>
+      <div class="page-head">
+        <div>
+          <h1>ตรวจข้อมูลก่อนบันทึก</h1>
+          <p>เทียบจำนวนรายการที่ระบบอ่านได้กับไฟล์ต้นฉบับ ดูข้อผิดพลาดพร้อมวิธีแก้ แล้วจึงกด "ยืนยันข้อมูลนำเข้า"</p>
+        </div>
+        <div class="page-actions">
+          <a class="btn" href="#import">กลับไปแก้ไฟล์</a>
+        </div>
+      </div>
+      <div id="previewBody"></div>
+      <div class="footer-bar" id="previewFooter">
+        <span id="confirmHint"></span>
+        <button type="button" class="btn btn-primary btn-lg" id="confirmImport">ยืนยันข้อมูลนำเข้า</button>
+      </div>
+    </section>
+
+    <!-- ===================== 3) จัดตาราง ===================== -->
+    <section class="view" id="view-run" data-view="run" hidden>
+      <div class="page-head">
+        <div>
+          <h1>จัดตาราง</h1>
+          <p id="runDatasetLine">กำหนดช่วงเวลาเรียน แล้วกด "จัดตาราง" ระหว่างคำนวณสามารถยกเลิกหรือเริ่มใหม่ได้</p>
+        </div>
+      </div>
+      <div class="cols-run">
+        <div class="panel" id="settingsPanel">
+          <div class="panel-head"><div><h2>ช่วงเวลาเรียน</h2><p>ใช้กับการจัดตารางทุกกลุ่มเรียน</p></div></div>
+          <div class="ruler" id="ruler" aria-label="คาบเรียนและเวลา"></div>
+          <form id="settingsForm" class="form-grid" style="margin-top:1rem" onsubmit="return false">
+            <div class="field span-2">
+              <span>วันเรียน</span>
+              <div class="day-picks" id="dayPicks"></div>
+            </div>
+            <label class="field"><span>จำนวนคาบต่อวัน</span><input class="input" type="number" name="periodsPerDay" min="3" max="14" required></label>
+            <label class="field"><span>เวลาเริ่มคาบแรก</span><input class="input" type="time" name="startTime" required></label>
+            <label class="field"><span>ความยาวคาบ (นาที)</span><input class="input" type="number" name="periodMinutes" min="30" max="120" step="5" required></label>
+            <label class="field"><span>พักกลางวันหลังคาบที่</span><input class="input" type="number" name="breakAfter" min="0" max="13"><span class="hint">ใส่ 0 ถ้าไม่มีพัก</span></label>
+            <label class="field"><span>ความยาวพัก (นาที)</span><input class="input" type="number" name="breakMinutes" min="0" max="120" step="5"></label>
+            <label class="field"><span>คาบต่อเนื่องสูงสุดต่อครั้ง</span><input class="input" type="number" name="maxBlock" min="1" max="8"><span class="hint">วิชา 5 คาบ แบ่งได้เป็น 3+2</span></label>
+            <label class="field"><span>ช่วงกิจกรรม (ไม่จัดสอน)</span><input class="input" type="text" name="blocked" placeholder="เช่น พ7-8"><span class="hint">วันย่อ+คาบ คั่นด้วย ; เช่น พ7-8; ศ8</span></label>
+            <label class="field"><span>ชื่อกิจกรรม</span><input class="input" type="text" name="blockedLabel" placeholder="กิจกรรมชมรม"></label>
+            <label class="check span-2"><input type="checkbox" name="noCrossBreak"> <span>ห้ามเรียนต่อเนื่องคร่อมช่วงพักกลางวัน</span></label>
+            <label class="check span-2"><input type="checkbox" name="oneSessionPerDay"> <span>วิชาเดียวกันของกลุ่มเดียวกันไม่เรียนซ้ำวัน (ถ้าทำได้)</span></label>
+            <div class="field span-2">
+              <span>ความละเอียดการค้นหา</span>
+              <div class="segmented" id="qualityPick" role="group" aria-label="ความละเอียดการค้นหา">
+                <button type="button" data-q="fast" aria-pressed="false">เร็ว</button>
+                <button type="button" data-q="normal" aria-pressed="true">มาตรฐาน</button>
+                <button type="button" data-q="deep" aria-pressed="false">ละเอียด</button>
+              </div>
+              <span class="hint" id="qualityHint"></span>
+            </div>
+          </form>
+          <div id="settingsError" style="margin-top:0.8rem"></div>
+        </div>
+
+        <div class="stack">
+          <div class="panel" id="runPanel">
+            <div class="panel-head">
+              <div><h2>สถานะการคำนวณ</h2><p id="runModeLine">พร้อมจัดตาราง</p></div>
+              <span class="badge" id="runStatusBadge">ยังไม่เริ่ม</span>
+            </div>
+            <div class="row" style="margin-bottom:1rem">
+              <button type="button" class="btn btn-primary btn-lg" id="btnRun">จัดตาราง</button>
+              <button type="button" class="btn btn-danger btn-lg" id="btnCancel" disabled>ยกเลิก</button>
+              <button type="button" class="btn btn-lg" id="btnRestart" disabled>เริ่มใหม่</button>
+            </div>
+            <div class="row between small" style="margin-bottom:0.35rem">
+              <span id="runPhase" aria-live="polite">-</span>
+              <span class="num" id="runPct">0%</span>
+            </div>
+            <div class="progress progress-lg" id="runProgress" role="progressbar" aria-label="ความคืบหน้าการจัดตาราง" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
+            <div class="metrics metrics-4" style="margin-top:1rem" id="runStats"></div>
+            <h3 style="margin-top:1.1rem">บันทึกการทำงาน</h3>
+            <ul class="log" id="runLog"></ul>
+          </div>
+          <div id="runResultBox"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4) ตารางผลลัพธ์ ===================== -->
+    <section class="view" id="view-results" data-view="results" hidden>
+      <div class="page-head">
+        <div>
+          <h1>ตารางผลลัพธ์</h1>
+          <p id="resultsLine">-</p>
+        </div>
+        <div class="page-actions" id="resultActions"></div>
+      </div>
+      <div id="resultsBody"></div>
+    </section>
+
+    <!-- ===================== ประวัติรอบรัน ===================== -->
+    <section class="view" id="view-history" data-view="history" hidden>
+      <div class="page-head">
+        <div>
+          <h1>ประวัติรอบรัน</h1>
+          <p id="historyLine">รอบการจัดตารางที่ผ่านมา เปิดดูผล ยืนยัน หรือพิมพ์ได้</p>
+        </div>
+        <div class="page-actions"><button type="button" class="btn" id="reloadHistory">โหลดใหม่</button></div>
+      </div>
+      <div class="panel" id="historyBody"></div>
+    </section>
+
+    <!-- ===================== ตั้งค่า ===================== -->
+    <section class="view" id="view-settings" data-view="settings" hidden>
+      <div class="page-head"><div><h1>ตั้งค่า</h1><p>ข้อมูลสถานศึกษาที่แสดงบนหัวตาราง และการเชื่อมต่อฐานข้อมูล Supabase</p></div></div>
+      <div class="cols-2">
+        <div class="panel">
+          <h2>ฐานข้อมูล Supabase</h2>
+          <p class="muted small">ใส่ Project URL และ anon / publishable key (ห้ามใช้ service_role) ถ้าตั้งค่าไว้ใน js/config.js แล้วไม่ต้องกรอกที่นี่</p>
+          <form id="dbForm" class="stack" style="gap:0.9rem" onsubmit="return false">
+            <label class="field"><span>Project URL</span><input class="input" name="url" type="url" placeholder="https://xxxx.supabase.co" autocomplete="off"></label>
+            <label class="field"><span>anon / publishable key</span><input class="input" name="key" type="password" placeholder="eyJhbGciOi... หรือ sb_publishable_..." autocomplete="off"></label>
+            <div class="row">
+              <button type="button" class="btn btn-primary" id="dbSave">บันทึกและทดสอบ</button>
+              <button type="button" class="btn" id="dbTest">ทดสอบการเชื่อมต่อ</button>
+              <button type="button" class="btn btn-ghost" id="dbClear">ล้างค่าที่กรอก</button>
+            </div>
+            <div id="dbStatus"></div>
+          </form>
+        </div>
+        <div class="stack">
+          <div class="panel">
+            <h2>ข้อมูลสถานศึกษา</h2>
+            <form id="schoolForm" class="stack" style="gap:0.9rem" onsubmit="return false">
+              <label class="field"><span>ชื่อสถานศึกษา</span><input class="input" name="schoolName" type="text"></label>
+              <label class="field"><span>ภาคเรียน / ปีการศึกษา</span><input class="input" name="term" type="text"></label>
+              <div><button type="button" class="btn btn-primary" id="schoolSave">บันทึก</button></div>
+            </form>
+          </div>
+          <div class="panel">
+            <h2>ข้อมูลในเครื่องนี้</h2>
+            <p class="muted small">ประวัติรอบรันสำรองไว้ในเบราว์เซอร์นี้ด้วย (สูงสุด 15 รอบล่าสุด) ล้างได้โดยไม่กระทบข้อมูลใน Supabase</p>
+            <button type="button" class="btn btn-danger" id="clearLocal">ล้างประวัติในเครื่อง</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">ระบบจัดตารางสอนอัตโนมัติ — ตรวจครูซ้อนคาบ ห้องซ้อนกัน และกลุ่มเรียนเวลาตรงกันทุกครั้งก่อนแสดงผล</footer>
+
+  <dialog class="sheet" id="detailDialog" aria-labelledby="detailTitle">
+    <div class="sheet-head">
+      <div><div class="muted small" id="detailCode"></div><h2 id="detailTitle" style="margin:0"></h2></div>
+      <button type="button" class="icon-btn" id="detailClose" aria-label="ปิด"></button>
+    </div>
+    <div class="sheet-body" id="detailBody"></div>
+  </dialog>
+
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/schema.js"></script>
+  <script src="js/timemodel.js"></script>
+  <script src="js/parsers/csv.js"></script>
+  <script src="js/parsers/xlsx.js"></script>
+  <script src="js/parsers/json.js"></script>
+  <script src="js/parsers/pdf.js"></script>
+  <script src="js/validator.js"></script>
+  <script src="js/scheduler-core.js"></script>
+  <script src="js/scheduler-runner.js"></script>
+  <script src="js/metrics.js"></script>
+  <script src="js/timetable-model.js"></script>
+  <script src="js/exporter.js"></script>
+  <script src="js/samples.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/importer.js"></script>
+  <script src="js/ui/common.js"></script>
+  <script src="js/ui/import-view.js"></script>
+  <script src="js/ui/preview-view.js"></script>
+  <script src="js/ui/run-view.js"></script>
+  <script src="js/ui/results-view.js"></script>
+  <script src="js/ui/history-view.js"></script>
+  <script src="js/ui/settings-view.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

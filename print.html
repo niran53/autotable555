@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>พิมพ์ตารางสอน</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&family=Noto+Sans+Thai+Looped:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/print.css">
+</head>
+<body class="print-page">
+  <div class="print-toolbar no-print" role="region" aria-label="ตัวเลือกการพิมพ์">
+    <div class="print-toolbar-inner">
+      <div>
+        <h1>หน้าพิมพ์ตารางสอน</h1>
+        <p class="muted small" id="printInfo">กำลังโหลด…</p>
+      </div>
+      <div class="row" id="printControls" hidden>
+        <label class="field"><span>พิมพ์ตาราง</span>
+          <select class="select" id="pView">
+            <option value="group">รายกลุ่มเรียน</option>
+            <option value="teacher">รายครู</option>
+            <option value="room">รายห้อง</option>
+          </select>
+        </label>
+        <label class="field"><span>เลือก</span><select class="select" id="pWhich"></select></label>
+        <label class="check" style="align-self:end;margin-bottom:0.6rem"><input type="checkbox" id="pSummary" checked> <span>หน้าสรุปตัวชี้วัด</span></label>
+        <button type="button" class="btn btn-primary btn-lg" id="pPrint" style="align-self:end">พิมพ์ / บันทึกเป็น PDF</button>
+        <a class="btn btn-lg" href="index.html#results" style="align-self:end">กลับไปหน้าผลลัพธ์</a>
+      </div>
+    </div>
+    <p class="small muted print-tip" id="printTip" hidden>ในหน้าต่างพิมพ์ เลือกปลายทาง "บันทึกเป็น PDF" (Save as PDF) และกระดาษ A4 แนวนอน</p>
+  </div>
+  <div id="pages"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/schema.js"></script>
+  <script src="js/timemodel.js"></script>
+  <script src="js/metrics.js"></script>
+  <script src="js/timetable-model.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/print.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+const path = require('path'); const fs = require('fs');
+['utils','schema','timemodel','parsers/csv','parsers/xlsx','parsers/json','validator','scheduler-core','metrics','samples','timetable-model','exporter'].forEach(f => require(path.join(__dirname,'..','js',f+'.js')));
+const TT = globalThis.TT;
+const settings = TT.schema.defaultSettings(); settings.seed = 7;
+const d = TT.samples.generate('medium');
+const v = TT.validator.validate([{file:'m.xlsx', tables: TT.samples.toTables(d).map(t=>({name:t.title,sheet:t.title,rows:t.rows.map(r=>r.map(String)),lines:t.rows.map((_,i)=>i+1)}))}], settings);
+const ds = TT.validator.cleanDataset(v.data);
+const gen = TT.scheduler.solve(TT.scheduler.prepare(ds, settings)); let r; while(!(r=gen.next()).done);
+const res = r.value;
+const run = { id:'test', started_at:new Date().toISOString(), confirmed_at:new Date().toISOString(), settings, dataset: ds, result: res, metrics: TT.metrics.analyze(ds, settings, res.placements, res.unscheduled) };
+fs.writeFileSync('/tmp/out.xlsx', TT.exporter.toXlsx(run));
+fs.writeFileSync('/tmp/out.csv', TT.exporter.toCsv(run));
+fs.writeFileSync('/tmp/out.json', TT.exporter.toJson(run));
+console.log('written', res.placements.length);

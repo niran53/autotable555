@@ -1,0 +1,2623 @@
+{
+  "teachers": [
+    {
+      "teacher_id": "T001",
+      "name": "นางธีรศักดิ์ มีสุข",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T002",
+      "name": "นางสาววรวุฒิ สุวรรณรัตน์",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "คอมพิวเตอร์ธุรกิจ",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T003",
+      "name": "นายสายสุนีย์ ศรีสุข",
+      "position": "ครูชำนาญการ",
+      "department": "คอมพิวเตอร์ธุรกิจ",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T004",
+      "name": "นางอนุชา เพชรรัตน์",
+      "position": "ครูผู้ช่วย",
+      "department": "คอมพิวเตอร์ธุรกิจ",
+      "max_periods": 22,
+      "unavailable": "ศ5-8"
+    },
+    {
+      "teacher_id": "T005",
+      "name": "นางสาวมาลัย มีสุข",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T006",
+      "name": "นายสุทธิพงษ์ ชัยมงคล",
+      "position": "ครูผู้ช่วย",
+      "department": "คอมพิวเตอร์ธุรกิจ",
+      "max_periods": 24,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T007",
+      "name": "นางสาวชาญวิทย์ เพชรรัตน์",
+      "position": "ครูอัตราจ้าง",
+      "department": "คอมพิวเตอร์ธุรกิจ",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T008",
+      "name": "นางนิตยา เพชรรัตน์",
+      "position": "พนักงานราชการ (ครู)",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T009",
+      "name": "นางสมหญิง รักษ์ธรรม",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "คอมพิวเตอร์ธุรกิจ",
+      "max_periods": 24,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T010",
+      "name": "นายสุภาพร ศรีวิชัย",
+      "position": "ครูผู้ช่วย",
+      "department": "คอมพิวเตอร์ธุรกิจ",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T011",
+      "name": "นางลัดดา สุวรรณรัตน์",
+      "position": "ครูอัตราจ้าง",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T012",
+      "name": "นายปิยะพงษ์ อินทร์แก้ว",
+      "position": "ครูชำนาญการ",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T013",
+      "name": "นางสมชาย มีสุข",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T014",
+      "name": "นายศุภลักษณ์ นาคสวัสดิ์",
+      "position": "ครูผู้ช่วย",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_periods": 24,
+      "unavailable": "พฤ1-4"
+    },
+    {
+      "teacher_id": "T015",
+      "name": "นางสาวสายสุนีย์ มีสุข",
+      "position": "ครูอัตราจ้าง",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_periods": 24,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T016",
+      "name": "นางสาวสมหญิง ศรีวิชัย",
+      "position": "ครูอัตราจ้าง",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_periods": 24,
+      "unavailable": "ศ5-8"
+    },
+    {
+      "teacher_id": "T017",
+      "name": "นายณัฐวุฒิ บุญเรือง",
+      "position": "ครูผู้ช่วย",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T018",
+      "name": "นางสาวอภิชาติ ทองคำ",
+      "position": "ครู",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_periods": 24,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T019",
+      "name": "นางรัตนา ศรีวิชัย",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_periods": 22,
+      "unavailable": "พฤ1-4"
+    },
+    {
+      "teacher_id": "T020",
+      "name": "นายลัดดา ศรีสุข",
+      "position": "ครู",
+      "department": "ช่างไฟฟ้ากำลัง",
+      "max_periods": 24,
+      "unavailable": "พฤ1-4"
+    },
+    {
+      "teacher_id": "T021",
+      "name": "นายศิริพร นาคสวัสดิ์",
+      "position": "ครูชำนาญการ",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T022",
+      "name": "นายวรวุฒิ ทองคำ",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "ช่างไฟฟ้ากำลัง",
+      "max_periods": 24,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T023",
+      "name": "นายสุภาพร ทองคำ",
+      "position": "ครูอัตราจ้าง",
+      "department": "ช่างไฟฟ้ากำลัง",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T024",
+      "name": "นายชัยวัฒน์ วงศ์ไทย",
+      "position": "ครูอัตราจ้าง",
+      "department": "ช่างไฟฟ้ากำลัง",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T025",
+      "name": "นางสาวรัตนา ทองคำ",
+      "position": "ครูชำนาญการ",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T026",
+      "name": "นางสาววีระพงษ์ บุญมา",
+      "position": "ครูอัตราจ้าง",
+      "department": "ช่างไฟฟ้ากำลัง",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T027",
+      "name": "นายกาญจนา สุวรรณรัตน์",
+      "position": "ครูผู้ช่วย",
+      "department": "ช่างไฟฟ้ากำลัง",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T028",
+      "name": "นางปวีณา บุญเรือง",
+      "position": "พนักงานราชการ (ครู)",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T029",
+      "name": "นางธนพล แสงอรุณ",
+      "position": "ครูผู้ช่วย",
+      "department": "ช่างไฟฟ้ากำลัง",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T030",
+      "name": "นายสุทธิพงษ์ ศรีวิชัย",
+      "position": "ครูผู้ช่วย",
+      "department": "ช่างยนต์",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T031",
+      "name": "นายเอกชัย ใจดี",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "ช่างยนต์",
+      "max_periods": 24,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T032",
+      "name": "นางสาวปวีณา สมบูรณ์ชัย",
+      "position": "ครู",
+      "department": "ช่างยนต์",
+      "max_periods": 20,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T033",
+      "name": "นายอรุณี ใจดี",
+      "position": "ครูผู้ช่วย",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 24,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T034",
+      "name": "นางสาวภานุวัฒน์ ทองดี",
+      "position": "พนักงานราชการ (ครู)",
+      "department": "ช่างยนต์",
+      "max_periods": 24,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T035",
+      "name": "นายดวงใจ ทองคำ",
+      "position": "พนักงานราชการ (ครู)",
+      "department": "ช่างยนต์",
+      "max_periods": 22,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T036",
+      "name": "นายณัฐวุฒิ เพชรรัตน์",
+      "position": "ครูชำนาญการพิเศษ",
+      "department": "ช่างยนต์",
+      "max_periods": 24,
+      "unavailable": ""
+    },
+    {
+      "teacher_id": "T037",
+      "name": "นางเบญจมาศ รักษ์ธรรม",
+      "position": "ครูผู้ช่วย",
+      "department": "สามัญสัมพันธ์",
+      "max_periods": 24,
+      "unavailable": "ศ5-8"
+    },
+    {
+      "teacher_id": "T038",
+      "name": "นางสุภาพร ทองดี",
+      "position": "พนักงานราชการ (ครู)",
+      "department": "ช่างยนต์",
+      "max_periods": 20,
+      "unavailable": ""
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "R101",
+      "name": "ห้องเรียน 1",
+      "type": "ทั่วไป",
+      "capacity": 40,
+      "building": "อาคาร 1"
+    },
+    {
+      "room_id": "R102",
+      "name": "ห้องเรียน 2",
+      "type": "ทั่วไป",
+      "capacity": 40,
+      "building": "อาคาร 1"
+    },
+    {
+      "room_id": "R103",
+      "name": "ห้องเรียน 3",
+      "type": "ทั่วไป",
+      "capacity": 40,
+      "building": "อาคาร 1"
+    },
+    {
+      "room_id": "R104",
+      "name": "ห้องเรียน 4",
+      "type": "ทั่วไป",
+      "capacity": 45,
+      "building": "อาคาร 1"
+    },
+    {
+      "room_id": "R105",
+      "name": "ห้องเรียน 5",
+      "type": "ทั่วไป",
+      "capacity": 45,
+      "building": "อาคาร 1"
+    },
+    {
+      "room_id": "R106",
+      "name": "ห้องเรียน 6",
+      "type": "ทั่วไป",
+      "capacity": 45,
+      "building": "อาคาร 1"
+    },
+    {
+      "room_id": "COM01",
+      "name": "ห้องคอมพิวเตอร์ 1",
+      "type": "คอมพิวเตอร์",
+      "capacity": 40,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM02",
+      "name": "ห้องคอมพิวเตอร์ 2",
+      "type": "คอมพิวเตอร์",
+      "capacity": 40,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM03",
+      "name": "ห้องคอมพิวเตอร์ 3",
+      "type": "คอมพิวเตอร์",
+      "capacity": 45,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM04",
+      "name": "ห้องคอมพิวเตอร์ 4",
+      "type": "คอมพิวเตอร์",
+      "capacity": 45,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM05",
+      "name": "ห้องคอมพิวเตอร์ 5",
+      "type": "คอมพิวเตอร์",
+      "capacity": 45,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM06",
+      "name": "ห้องคอมพิวเตอร์ 6",
+      "type": "คอมพิวเตอร์",
+      "capacity": 45,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM07",
+      "name": "ห้องคอมพิวเตอร์ 7",
+      "type": "คอมพิวเตอร์",
+      "capacity": 45,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM08",
+      "name": "ห้องคอมพิวเตอร์ 8",
+      "type": "คอมพิวเตอร์",
+      "capacity": 40,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM09",
+      "name": "ห้องคอมพิวเตอร์ 9",
+      "type": "คอมพิวเตอร์",
+      "capacity": 40,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "COM10",
+      "name": "ห้องคอมพิวเตอร์ 10",
+      "type": "คอมพิวเตอร์",
+      "capacity": 45,
+      "building": "อาคาร 3"
+    },
+    {
+      "room_id": "GYM01",
+      "name": "โรงยิม 1",
+      "type": "สนามกีฬา",
+      "capacity": 80,
+      "building": "อาคารพลศึกษา"
+    },
+    {
+      "room_id": "GYM02",
+      "name": "โรงยิม 2",
+      "type": "สนามกีฬา",
+      "capacity": 80,
+      "building": "อาคารพลศึกษา"
+    },
+    {
+      "room_id": "EL01",
+      "name": "ห้องปฏิบัติการไฟฟ้า 1",
+      "type": "ปฏิบัติการไฟฟ้า",
+      "capacity": 45,
+      "building": "อาคารช่างไฟฟ้า"
+    },
+    {
+      "room_id": "EL02",
+      "name": "ห้องปฏิบัติการไฟฟ้า 2",
+      "type": "ปฏิบัติการไฟฟ้า",
+      "capacity": 40,
+      "building": "อาคารช่างไฟฟ้า"
+    },
+    {
+      "room_id": "EL03",
+      "name": "ห้องปฏิบัติการไฟฟ้า 3",
+      "type": "ปฏิบัติการไฟฟ้า",
+      "capacity": 45,
+      "building": "อาคารช่างไฟฟ้า"
+    },
+    {
+      "room_id": "EL04",
+      "name": "ห้องปฏิบัติการไฟฟ้า 4",
+      "type": "ปฏิบัติการไฟฟ้า",
+      "capacity": 40,
+      "building": "อาคารช่างไฟฟ้า"
+    },
+    {
+      "room_id": "EL05",
+      "name": "ห้องปฏิบัติการไฟฟ้า 5",
+      "type": "ปฏิบัติการไฟฟ้า",
+      "capacity": 45,
+      "building": "อาคารช่างไฟฟ้า"
+    },
+    {
+      "room_id": "AU01",
+      "name": "ห้องโรงฝึกยนต์ 1",
+      "type": "โรงฝึกยนต์",
+      "capacity": 40,
+      "building": "อาคารช่างยนต์"
+    },
+    {
+      "room_id": "AU02",
+      "name": "ห้องโรงฝึกยนต์ 2",
+      "type": "โรงฝึกยนต์",
+      "capacity": 45,
+      "building": "อาคารช่างยนต์"
+    },
+    {
+      "room_id": "AU03",
+      "name": "ห้องโรงฝึกยนต์ 3",
+      "type": "โรงฝึกยนต์",
+      "capacity": 45,
+      "building": "อาคารช่างยนต์"
+    },
+    {
+      "room_id": "AU04",
+      "name": "ห้องโรงฝึกยนต์ 4",
+      "type": "โรงฝึกยนต์",
+      "capacity": 40,
+      "building": "อาคารช่างยนต์"
+    },
+    {
+      "room_id": "AU05",
+      "name": "ห้องโรงฝึกยนต์ 5",
+      "type": "โรงฝึกยนต์",
+      "capacity": 45,
+      "building": "อาคารช่างยนต์"
+    },
+    {
+      "room_id": "AU06",
+      "name": "ห้องโรงฝึกยนต์ 6",
+      "type": "โรงฝึกยนต์",
+      "capacity": 45,
+      "building": "อาคารช่างยนต์"
+    }
+  ],
+  "subjects": [
+    {
+      "subject_id": "20000-1101",
+      "name": "ภาษาไทยพื้นฐาน",
+      "theory": 1,
+      "practice": 0,
+      "credit": 1,
+      "room_type": "ทั่วไป"
+    },
+    {
+      "subject_id": "20000-1201",
+      "name": "ภาษาอังกฤษในชีวิตจริง",
+      "theory": 0,
+      "practice": 2,
+      "credit": 1,
+      "room_type": "ทั่วไป"
+    },
+    {
+      "subject_id": "20000-1401",
+      "name": "คณิตศาสตร์พื้นฐานอาชีพ",
+      "theory": 2,
+      "practice": 0,
+      "credit": 2,
+      "room_type": "ทั่วไป"
+    },
+    {
+      "subject_id": "20000-1301",
+      "name": "วิทยาศาสตร์เพื่อพัฒนาทักษะชีวิต",
+      "theory": 1,
+      "practice": 2,
+      "credit": 2,
+      "room_type": "ทั่วไป"
+    },
+    {
+      "subject_id": "20000-1501",
+      "name": "หน้าที่พลเมืองและศีลธรรม",
+      "theory": 1,
+      "practice": 0,
+      "credit": 1,
+      "room_type": "ทั่วไป"
+    },
+    {
+      "subject_id": "20000-1601",
+      "name": "พลศึกษาเพื่อพัฒนาสุขภาพ",
+      "theory": 0,
+      "practice": 2,
+      "credit": 1,
+      "room_type": "สนามกีฬา"
+    },
+    {
+      "subject_id": "20204-2001",
+      "name": "คอมพิวเตอร์และสารสนเทศเพื่องานอาชีพ",
+      "theory": 1,
+      "practice": 2,
+      "credit": 2,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "20204-2003",
+      "name": "ระบบปฏิบัติการเบื้องต้น",
+      "theory": 1,
+      "practice": 2,
+      "credit": 2,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "20204-2004",
+      "name": "เครือข่ายคอมพิวเตอร์เบื้องต้น",
+      "theory": 1,
+      "practice": 2,
+      "credit": 2,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "20204-2107",
+      "name": "การเขียนโปรแกรมคอมพิวเตอร์",
+      "theory": 1,
+      "practice": 4,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "20204-2105",
+      "name": "การออกแบบเว็บไซต์",
+      "theory": 1,
+      "practice": 4,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "31901-2001",
+      "name": "การเขียนโปรแกรมเชิงวัตถุ",
+      "theory": 1,
+      "practice": 4,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "31901-2013",
+      "name": "การพัฒนาไฮบริดแอพพลิเคชั่น",
+      "theory": 1,
+      "practice": 4,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "31901-2003",
+      "name": "ระบบฐานข้อมูล",
+      "theory": 2,
+      "practice": 2,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "31901-2005",
+      "name": "การวิเคราะห์และออกแบบระบบ",
+      "theory": 2,
+      "practice": 2,
+      "credit": 3,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "31901-2007",
+      "name": "ความปลอดภัยระบบเครือข่าย",
+      "theory": 1,
+      "practice": 3,
+      "credit": 2,
+      "room_type": "คอมพิวเตอร์"
+    },
+    {
+      "subject_id": "20104-2001",
+      "name": "เขียนแบบไฟฟ้า",
+      "theory": 1,
+      "practice": 3,
+      "credit": 2,
+      "room_type": "ปฏิบัติการไฟฟ้า"
+    },
+    {
+      "subject_id": "20104-2002",
+      "name": "วงจรไฟฟ้ากระแสตรง",
+      "theory": 1,
+      "practice": 3,
+      "credit": 2,
+      "room_type": "ปฏิบัติการไฟฟ้า"
+    },
+    {
+      "subject_id": "20104-2005",
+      "name": "การติดตั้งไฟฟ้าในอาคาร",
+      "theory": 1,
+      "practice": 4,
+      "credit": 3,
+      "room_type": "ปฏิบัติการไฟฟ้า"
+    },
+    {
+      "subject_id": "20104-2008",
+      "name": "เครื่องกลไฟฟ้า",
+      "theory": 1,
+      "practice": 3,
+      "credit": 2,
+      "room_type": "ปฏิบัติการไฟฟ้า"
+    },
+    {
+      "subject_id": "20104-2010",
+      "name": "เครื่องวัดไฟฟ้า",
+      "theory": 1,
+      "practice": 3,
+      "credit": 2,
+      "room_type": "ปฏิบัติการไฟฟ้า"
+    },
+    {
+      "subject_id": "20101-2001",
+      "name": "งานเครื่องยนต์เล็ก",
+      "theory": 1,
+      "practice": 3,
+      "credit": 2,
+      "room_type": "โรงฝึกยนต์"
+    },
+    {
+      "subject_id": "20101-2003",
+      "name": "งานเครื่องยนต์แก๊สโซลีน",
+      "theory": 1,
+      "practice": 4,
+      "credit": 3,
+      "room_type": "โรงฝึกยนต์"
+    },
+    {
+      "subject_id": "20101-2004",
+      "name": "งานเครื่องยนต์ดีเซล",
+      "theory": 1,
+      "practice": 4,
+      "credit": 3,
+      "room_type": "โรงฝึกยนต์"
+    },
+    {
+      "subject_id": "20101-2005",
+      "name": "งานส่งกำลังรถยนต์",
+      "theory": 1,
+      "practice": 3,
+      "credit": 2,
+      "room_type": "โรงฝึกยนต์"
+    },
+    {
+      "subject_id": "20101-2006",
+      "name": "งานไฟฟ้ารถยนต์",
+      "theory": 1,
+      "practice": 3,
+      "credit": 2,
+      "room_type": "โรงฝึกยนต์"
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "คธ-C1/1",
+      "name": "ปวช.1 คอมพิวเตอร์ธุรกิจ กลุ่ม 1",
+      "level": "ปวช.1",
+      "students": 33,
+      "department": "คอมพิวเตอร์ธุรกิจ"
+    },
+    {
+      "group_id": "คธ-C1/2",
+      "name": "ปวช.1 คอมพิวเตอร์ธุรกิจ กลุ่ม 2",
+      "level": "ปวช.1",
+      "students": 29,
+      "department": "คอมพิวเตอร์ธุรกิจ"
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "name": "ปวช.2 คอมพิวเตอร์ธุรกิจ กลุ่ม 1",
+      "level": "ปวช.2",
+      "students": 34,
+      "department": "คอมพิวเตอร์ธุรกิจ"
+    },
+    {
+      "group_id": "คธ-C2/2",
+      "name": "ปวช.2 คอมพิวเตอร์ธุรกิจ กลุ่ม 2",
+      "level": "ปวช.2",
+      "students": 28,
+      "department": "คอมพิวเตอร์ธุรกิจ"
+    },
+    {
+      "group_id": "คธ-C3/1",
+      "name": "ปวช.3 คอมพิวเตอร์ธุรกิจ กลุ่ม 1",
+      "level": "ปวช.3",
+      "students": 33,
+      "department": "คอมพิวเตอร์ธุรกิจ"
+    },
+    {
+      "group_id": "คธ-C3/2",
+      "name": "ปวช.3 คอมพิวเตอร์ธุรกิจ กลุ่ม 2",
+      "level": "ปวช.3",
+      "students": 34,
+      "department": "คอมพิวเตอร์ธุรกิจ"
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "name": "ปวช.1 เทคโนโลยีสารสนเทศ กลุ่ม 1",
+      "level": "ปวช.1",
+      "students": 30,
+      "department": "เทคโนโลยีสารสนเทศ"
+    },
+    {
+      "group_id": "ทส-C1/2",
+      "name": "ปวช.1 เทคโนโลยีสารสนเทศ กลุ่ม 2",
+      "level": "ปวช.1",
+      "students": 37,
+      "department": "เทคโนโลยีสารสนเทศ"
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "name": "ปวช.2 เทคโนโลยีสารสนเทศ กลุ่ม 1",
+      "level": "ปวช.2",
+      "students": 36,
+      "department": "เทคโนโลยีสารสนเทศ"
+    },
+    {
+      "group_id": "ทส-C2/2",
+      "name": "ปวช.2 เทคโนโลยีสารสนเทศ กลุ่ม 2",
+      "level": "ปวช.2",
+      "students": 30,
+      "department": "เทคโนโลยีสารสนเทศ"
+    },
+    {
+      "group_id": "ทส-C3/1",
+      "name": "ปวช.3 เทคโนโลยีสารสนเทศ กลุ่ม 1",
+      "level": "ปวช.3",
+      "students": 30,
+      "department": "เทคโนโลยีสารสนเทศ"
+    },
+    {
+      "group_id": "ทส-C3/2",
+      "name": "ปวช.3 เทคโนโลยีสารสนเทศ กลุ่ม 2",
+      "level": "ปวช.3",
+      "students": 30,
+      "department": "เทคโนโลยีสารสนเทศ"
+    },
+    {
+      "group_id": "ชฟ-C1/1",
+      "name": "ปวช.1 ช่างไฟฟ้ากำลัง กลุ่ม 1",
+      "level": "ปวช.1",
+      "students": 32,
+      "department": "ช่างไฟฟ้ากำลัง"
+    },
+    {
+      "group_id": "ชฟ-C1/2",
+      "name": "ปวช.1 ช่างไฟฟ้ากำลัง กลุ่ม 2",
+      "level": "ปวช.1",
+      "students": 40,
+      "department": "ช่างไฟฟ้ากำลัง"
+    },
+    {
+      "group_id": "ชฟ-C2/1",
+      "name": "ปวช.2 ช่างไฟฟ้ากำลัง กลุ่ม 1",
+      "level": "ปวช.2",
+      "students": 36,
+      "department": "ช่างไฟฟ้ากำลัง"
+    },
+    {
+      "group_id": "ชฟ-C2/2",
+      "name": "ปวช.2 ช่างไฟฟ้ากำลัง กลุ่ม 2",
+      "level": "ปวช.2",
+      "students": 35,
+      "department": "ช่างไฟฟ้ากำลัง"
+    },
+    {
+      "group_id": "ชฟ-C3/1",
+      "name": "ปวช.3 ช่างไฟฟ้ากำลัง กลุ่ม 1",
+      "level": "ปวช.3",
+      "students": 37,
+      "department": "ช่างไฟฟ้ากำลัง"
+    },
+    {
+      "group_id": "ชฟ-C3/2",
+      "name": "ปวช.3 ช่างไฟฟ้ากำลัง กลุ่ม 2",
+      "level": "ปวช.3",
+      "students": 31,
+      "department": "ช่างไฟฟ้ากำลัง"
+    },
+    {
+      "group_id": "ชย-C1/1",
+      "name": "ปวช.1 ช่างยนต์ กลุ่ม 1",
+      "level": "ปวช.1",
+      "students": 29,
+      "department": "ช่างยนต์"
+    },
+    {
+      "group_id": "ชย-C1/2",
+      "name": "ปวช.1 ช่างยนต์ กลุ่ม 2",
+      "level": "ปวช.1",
+      "students": 30,
+      "department": "ช่างยนต์"
+    },
+    {
+      "group_id": "ชย-C2/1",
+      "name": "ปวช.2 ช่างยนต์ กลุ่ม 1",
+      "level": "ปวช.2",
+      "students": 40,
+      "department": "ช่างยนต์"
+    },
+    {
+      "group_id": "ชย-C2/2",
+      "name": "ปวช.2 ช่างยนต์ กลุ่ม 2",
+      "level": "ปวช.2",
+      "students": 35,
+      "department": "ช่างยนต์"
+    },
+    {
+      "group_id": "ชย-C3/1",
+      "name": "ปวช.3 ช่างยนต์ กลุ่ม 1",
+      "level": "ปวช.3",
+      "students": 32,
+      "department": "ช่างยนต์"
+    },
+    {
+      "group_id": "ชย-C3/2",
+      "name": "ปวช.3 ช่างยนต์ กลุ่ม 2",
+      "level": "ปวช.3",
+      "students": 40,
+      "department": "ช่างยนต์"
+    }
+  ],
+  "assignments": [
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20000-1101",
+      "teacher_id": "T001",
+      "periods": 1,
+      "room_id": "R101",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20000-1301",
+      "teacher_id": "T001",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T001",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20000-1201",
+      "teacher_id": "T001",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20204-2001",
+      "teacher_id": "T002",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20204-2003",
+      "teacher_id": "T002",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20204-2004",
+      "teacher_id": "T002",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20204-2107",
+      "teacher_id": "T002",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/1",
+      "subject_id": "20204-2105",
+      "teacher_id": "T002",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "คธ-C1/2",
+      "subject_id": "20000-1501",
+      "teacher_id": "T001",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/2",
+      "subject_id": "20000-1401",
+      "teacher_id": "T001",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/2",
+      "subject_id": "20000-1201",
+      "teacher_id": "T001",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/2",
+      "subject_id": "20000-1601",
+      "teacher_id": "T001",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/2",
+      "subject_id": "20204-2001",
+      "teacher_id": "T003",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/2",
+      "subject_id": "20204-2003",
+      "teacher_id": "T003",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/2",
+      "subject_id": "20204-2004",
+      "teacher_id": "T003",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/2",
+      "subject_id": "20204-2107",
+      "teacher_id": "T003",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C1/2",
+      "subject_id": "20204-2105",
+      "teacher_id": "T004",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20000-1201",
+      "teacher_id": "T001",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20000-1101",
+      "teacher_id": "T001",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20000-1401",
+      "teacher_id": "T005",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20000-1601",
+      "teacher_id": "T005",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20204-2001",
+      "teacher_id": "T004",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20204-2003",
+      "teacher_id": "T004",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20204-2004",
+      "teacher_id": "T004",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20204-2107",
+      "teacher_id": "T004",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "คธ-C2/1",
+      "subject_id": "20204-2105",
+      "teacher_id": "T006",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/2",
+      "subject_id": "20000-1601",
+      "teacher_id": "T005",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/2",
+      "subject_id": "20000-1401",
+      "teacher_id": "T005",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/2",
+      "subject_id": "20000-1301",
+      "teacher_id": "T005",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/2",
+      "subject_id": "20000-1201",
+      "teacher_id": "T005",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/2",
+      "subject_id": "20204-2001",
+      "teacher_id": "T006",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/2",
+      "subject_id": "20204-2003",
+      "teacher_id": "T006",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/2",
+      "subject_id": "20204-2004",
+      "teacher_id": "T006",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C2/2",
+      "subject_id": "20204-2107",
+      "teacher_id": "T006",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "คธ-C2/2",
+      "subject_id": "20204-2105",
+      "teacher_id": "T007",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "คธ-C3/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T005",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/1",
+      "subject_id": "20000-1301",
+      "teacher_id": "T005",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/1",
+      "subject_id": "20000-1101",
+      "teacher_id": "T001",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/1",
+      "subject_id": "20000-1201",
+      "teacher_id": "T008",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/1",
+      "subject_id": "20204-2001",
+      "teacher_id": "T007",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/1",
+      "subject_id": "20204-2003",
+      "teacher_id": "T007",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/1",
+      "subject_id": "20204-2004",
+      "teacher_id": "T007",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/1",
+      "subject_id": "20204-2107",
+      "teacher_id": "T007",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "คธ-C3/1",
+      "subject_id": "20204-2105",
+      "teacher_id": "T009",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/2",
+      "subject_id": "20000-1201",
+      "teacher_id": "T008",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/2",
+      "subject_id": "20000-1601",
+      "teacher_id": "T008",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/2",
+      "subject_id": "20000-1101",
+      "teacher_id": "T008",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/2",
+      "subject_id": "20000-1501",
+      "teacher_id": "T008",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/2",
+      "subject_id": "20204-2001",
+      "teacher_id": "T009",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/2",
+      "subject_id": "20204-2003",
+      "teacher_id": "T009",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/2",
+      "subject_id": "20204-2004",
+      "teacher_id": "T009",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "คธ-C3/2",
+      "subject_id": "20204-2107",
+      "teacher_id": "T009",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "คธ-C3/2",
+      "subject_id": "20204-2105",
+      "teacher_id": "T010",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "20000-1401",
+      "teacher_id": "T008",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "20000-1201",
+      "teacher_id": "T008",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T008",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "20000-1301",
+      "teacher_id": "T008",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "31901-2001",
+      "teacher_id": "T011",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "31901-2013",
+      "teacher_id": "T011",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "31901-2003",
+      "teacher_id": "T011",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "31901-2005",
+      "teacher_id": "T011",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/1",
+      "subject_id": "31901-2007",
+      "teacher_id": "T012",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/2",
+      "subject_id": "20000-1101",
+      "teacher_id": "T008",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/2",
+      "subject_id": "20000-1501",
+      "teacher_id": "T005",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/2",
+      "subject_id": "20000-1201",
+      "teacher_id": "T008",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/2",
+      "subject_id": "20000-1601",
+      "teacher_id": "T013",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/2",
+      "subject_id": "31901-2001",
+      "teacher_id": "T012",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ทส-C1/2",
+      "subject_id": "31901-2013",
+      "teacher_id": "T012",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/2",
+      "subject_id": "31901-2003",
+      "teacher_id": "T012",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/2",
+      "subject_id": "31901-2005",
+      "teacher_id": "T014",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C1/2",
+      "subject_id": "31901-2007",
+      "teacher_id": "T014",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "20000-1601",
+      "teacher_id": "T013",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T013",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "20000-1401",
+      "teacher_id": "T013",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "20000-1301",
+      "teacher_id": "T013",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "31901-2001",
+      "teacher_id": "T014",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "31901-2013",
+      "teacher_id": "T014",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "31901-2003",
+      "teacher_id": "T014",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "31901-2005",
+      "teacher_id": "T015",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/1",
+      "subject_id": "31901-2007",
+      "teacher_id": "T015",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/2",
+      "subject_id": "20000-1301",
+      "teacher_id": "T013",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/2",
+      "subject_id": "20000-1101",
+      "teacher_id": "T013",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/2",
+      "subject_id": "20000-1401",
+      "teacher_id": "T013",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/2",
+      "subject_id": "20000-1201",
+      "teacher_id": "T013",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/2",
+      "subject_id": "31901-2001",
+      "teacher_id": "T015",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/2",
+      "subject_id": "31901-2013",
+      "teacher_id": "T015",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/2",
+      "subject_id": "31901-2003",
+      "teacher_id": "T015",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/2",
+      "subject_id": "31901-2005",
+      "teacher_id": "T016",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C2/2",
+      "subject_id": "31901-2007",
+      "teacher_id": "T016",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/1",
+      "subject_id": "20000-1201",
+      "teacher_id": "T013",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/1",
+      "subject_id": "20000-1101",
+      "teacher_id": "T008",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/1",
+      "subject_id": "20000-1601",
+      "teacher_id": "T017",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T017",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/1",
+      "subject_id": "31901-2001",
+      "teacher_id": "T016",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/1",
+      "subject_id": "31901-2013",
+      "teacher_id": "T016",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/1",
+      "subject_id": "31901-2003",
+      "teacher_id": "T016",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/1",
+      "subject_id": "31901-2005",
+      "teacher_id": "T018",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/1",
+      "subject_id": "31901-2007",
+      "teacher_id": "T018",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/2",
+      "subject_id": "20000-1601",
+      "teacher_id": "T017",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/2",
+      "subject_id": "20000-1401",
+      "teacher_id": "T017",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/2",
+      "subject_id": "20000-1501",
+      "teacher_id": "T017",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/2",
+      "subject_id": "20000-1301",
+      "teacher_id": "T017",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/2",
+      "subject_id": "31901-2001",
+      "teacher_id": "T018",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/2",
+      "subject_id": "31901-2013",
+      "teacher_id": "T018",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/2",
+      "subject_id": "31901-2003",
+      "teacher_id": "T018",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/2",
+      "subject_id": "31901-2005",
+      "teacher_id": "T019",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ทส-C3/2",
+      "subject_id": "31901-2007",
+      "teacher_id": "T019",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/1",
+      "subject_id": "20000-1401",
+      "teacher_id": "T017",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/1",
+      "subject_id": "20000-1201",
+      "teacher_id": "T017",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/1",
+      "subject_id": "20000-1101",
+      "teacher_id": "T017",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T017",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/1",
+      "subject_id": "20104-2001",
+      "teacher_id": "T020",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/1",
+      "subject_id": "20104-2002",
+      "teacher_id": "T020",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/1",
+      "subject_id": "20104-2005",
+      "teacher_id": "T020",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/1",
+      "subject_id": "20104-2008",
+      "teacher_id": "T020",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/1",
+      "subject_id": "20104-2010",
+      "teacher_id": "T020",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/2",
+      "subject_id": "20000-1301",
+      "teacher_id": "T017",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/2",
+      "subject_id": "20000-1601",
+      "teacher_id": "T021",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/2",
+      "subject_id": "20000-1201",
+      "teacher_id": "T021",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/2",
+      "subject_id": "20000-1401",
+      "teacher_id": "T021",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/2",
+      "subject_id": "20104-2001",
+      "teacher_id": "T022",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/2",
+      "subject_id": "20104-2002",
+      "teacher_id": "T022",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/2",
+      "subject_id": "20104-2005",
+      "teacher_id": "T022",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/2",
+      "subject_id": "20104-2008",
+      "teacher_id": "T022",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C1/2",
+      "subject_id": "20104-2010",
+      "teacher_id": "T022",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/1",
+      "subject_id": "20000-1201",
+      "teacher_id": "T021",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/1",
+      "subject_id": "20000-1401",
+      "teacher_id": "T021",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T021",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/1",
+      "subject_id": "20000-1601",
+      "teacher_id": "T021",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/1",
+      "subject_id": "20104-2001",
+      "teacher_id": "T023",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/1",
+      "subject_id": "20104-2002",
+      "teacher_id": "T023",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/1",
+      "subject_id": "20104-2005",
+      "teacher_id": "T023",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ชฟ-C2/1",
+      "subject_id": "20104-2008",
+      "teacher_id": "T023",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/1",
+      "subject_id": "20104-2010",
+      "teacher_id": "T024",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/2",
+      "subject_id": "20000-1401",
+      "teacher_id": "T021",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/2",
+      "subject_id": "20000-1101",
+      "teacher_id": "T021",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/2",
+      "subject_id": "20000-1601",
+      "teacher_id": "T021",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/2",
+      "subject_id": "20000-1301",
+      "teacher_id": "T025",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/2",
+      "subject_id": "20104-2001",
+      "teacher_id": "T024",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/2",
+      "subject_id": "20104-2002",
+      "teacher_id": "T024",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/2",
+      "subject_id": "20104-2005",
+      "teacher_id": "T024",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ชฟ-C2/2",
+      "subject_id": "20104-2008",
+      "teacher_id": "T026",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C2/2",
+      "subject_id": "20104-2010",
+      "teacher_id": "T026",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/1",
+      "subject_id": "20000-1401",
+      "teacher_id": "T025",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/1",
+      "subject_id": "20000-1301",
+      "teacher_id": "T025",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/1",
+      "subject_id": "20000-1201",
+      "teacher_id": "T025",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/1",
+      "subject_id": "20000-1601",
+      "teacher_id": "T025",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/1",
+      "subject_id": "20104-2001",
+      "teacher_id": "T026",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/1",
+      "subject_id": "20104-2002",
+      "teacher_id": "T026",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/1",
+      "subject_id": "20104-2005",
+      "teacher_id": "T027",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/1",
+      "subject_id": "20104-2008",
+      "teacher_id": "T027",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/1",
+      "subject_id": "20104-2010",
+      "teacher_id": "T027",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/2",
+      "subject_id": "20000-1501",
+      "teacher_id": "T025",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/2",
+      "subject_id": "20000-1601",
+      "teacher_id": "T025",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/2",
+      "subject_id": "20000-1401",
+      "teacher_id": "T025",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/2",
+      "subject_id": "20000-1301",
+      "teacher_id": "T028",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/2",
+      "subject_id": "20104-2001",
+      "teacher_id": "T027",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/2",
+      "subject_id": "20104-2002",
+      "teacher_id": "T029",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/2",
+      "subject_id": "20104-2005",
+      "teacher_id": "T029",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ชฟ-C3/2",
+      "subject_id": "20104-2008",
+      "teacher_id": "T029",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชฟ-C3/2",
+      "subject_id": "20104-2010",
+      "teacher_id": "T029",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T028",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/1",
+      "subject_id": "20000-1601",
+      "teacher_id": "T028",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/1",
+      "subject_id": "20000-1401",
+      "teacher_id": "T028",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/1",
+      "subject_id": "20000-1101",
+      "teacher_id": "T028",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/1",
+      "subject_id": "20101-2001",
+      "teacher_id": "T030",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/1",
+      "subject_id": "20101-2003",
+      "teacher_id": "T030",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/1",
+      "subject_id": "20101-2004",
+      "teacher_id": "T030",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/1",
+      "subject_id": "20101-2005",
+      "teacher_id": "T030",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/1",
+      "subject_id": "20101-2006",
+      "teacher_id": "T031",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/2",
+      "subject_id": "20000-1401",
+      "teacher_id": "T028",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/2",
+      "subject_id": "20000-1601",
+      "teacher_id": "T028",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/2",
+      "subject_id": "20000-1301",
+      "teacher_id": "T028",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/2",
+      "subject_id": "20000-1101",
+      "teacher_id": "T028",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/2",
+      "subject_id": "20101-2001",
+      "teacher_id": "T031",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/2",
+      "subject_id": "20101-2003",
+      "teacher_id": "T031",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ชย-C1/2",
+      "subject_id": "20101-2004",
+      "teacher_id": "T031",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/2",
+      "subject_id": "20101-2005",
+      "teacher_id": "T031",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C1/2",
+      "subject_id": "20101-2006",
+      "teacher_id": "T032",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/1",
+      "subject_id": "20000-1301",
+      "teacher_id": "T033",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T033",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/1",
+      "subject_id": "20000-1101",
+      "teacher_id": "T033",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/1",
+      "subject_id": "20000-1401",
+      "teacher_id": "T033",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/1",
+      "subject_id": "20101-2001",
+      "teacher_id": "T032",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/1",
+      "subject_id": "20101-2003",
+      "teacher_id": "T032",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ชย-C2/1",
+      "subject_id": "20101-2004",
+      "teacher_id": "T032",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ชย-C2/1",
+      "subject_id": "20101-2005",
+      "teacher_id": "T034",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/1",
+      "subject_id": "20101-2006",
+      "teacher_id": "T034",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/2",
+      "subject_id": "20000-1501",
+      "teacher_id": "T033",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/2",
+      "subject_id": "20000-1601",
+      "teacher_id": "T033",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/2",
+      "subject_id": "20000-1301",
+      "teacher_id": "T033",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/2",
+      "subject_id": "20000-1201",
+      "teacher_id": "T033",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/2",
+      "subject_id": "20101-2001",
+      "teacher_id": "T034",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/2",
+      "subject_id": "20101-2003",
+      "teacher_id": "T034",
+      "periods": 5,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/2",
+      "subject_id": "20101-2004",
+      "teacher_id": "T034",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ชย-C2/2",
+      "subject_id": "20101-2005",
+      "teacher_id": "T035",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C2/2",
+      "subject_id": "20101-2006",
+      "teacher_id": "T035",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/1",
+      "subject_id": "20000-1601",
+      "teacher_id": "T033",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/1",
+      "subject_id": "20000-1201",
+      "teacher_id": "T033",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/1",
+      "subject_id": "20000-1501",
+      "teacher_id": "T025",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/1",
+      "subject_id": "20000-1301",
+      "teacher_id": "T033",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/1",
+      "subject_id": "20101-2001",
+      "teacher_id": "T035",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/1",
+      "subject_id": "20101-2003",
+      "teacher_id": "T035",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ชย-C3/1",
+      "subject_id": "20101-2004",
+      "teacher_id": "T036",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ชย-C3/1",
+      "subject_id": "20101-2005",
+      "teacher_id": "T036",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/1",
+      "subject_id": "20101-2006",
+      "teacher_id": "T036",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/2",
+      "subject_id": "20000-1501",
+      "teacher_id": "T028",
+      "periods": 1,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/2",
+      "subject_id": "20000-1601",
+      "teacher_id": "T021",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/2",
+      "subject_id": "20000-1301",
+      "teacher_id": "T037",
+      "periods": 3,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/2",
+      "subject_id": "20000-1201",
+      "teacher_id": "T037",
+      "periods": 2,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/2",
+      "subject_id": "20101-2001",
+      "teacher_id": "T036",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/2",
+      "subject_id": "20101-2003",
+      "teacher_id": "T036",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ชย-C3/2",
+      "subject_id": "20101-2004",
+      "teacher_id": "T038",
+      "periods": 5,
+      "room_id": "",
+      "split": "2+3"
+    },
+    {
+      "group_id": "ชย-C3/2",
+      "subject_id": "20101-2005",
+      "teacher_id": "T038",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    },
+    {
+      "group_id": "ชย-C3/2",
+      "subject_id": "20101-2006",
+      "teacher_id": "T038",
+      "periods": 4,
+      "room_id": "",
+      "split": ""
+    }
+  ]
+}
